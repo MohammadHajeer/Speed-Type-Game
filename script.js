@@ -67,7 +67,7 @@ let normal = [
 ];
 
 let hard = [
-  "intermidiate",
+  "intermediate",
   "beautiful",
   "wonderful",
   "waterfall",
