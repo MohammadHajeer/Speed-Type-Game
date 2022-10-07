@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Type-Speed Game</title>
+  </head>
+  <body>
+    <div class="game">
+      <div class="title">
+        <h1>Type-Speed Game ("Show Us Your Skills")</h1>
+      </div>
+      <div class="type">
+        <h3>Choose Your Mode:</h3>
+        <div class="modes">
+          <span class="easy mode">Easy</span>
+          <span class="normal mode active">Normal</span>
+          <span class="hard mode">Hard</span>
+        </div>
+      </div>
+      <div class="sentence">
+        <p>
+          This game consists of 3 modes, choose the one that suits you and Start
+          The Game !!
+        </p>
+        <p>
+          You are currently playing at <span id="mode">Normal</span> mode which
+          gives you only <span id="mode-time">4</span> seconds
+        </p>
+      </div>
+      <div class="control">
+        <button>Start The Game !!</button>
+        <div class="the-word"></div>
+        <input type="text" placeholder="copy the chosen word" id="input" />
+        <div class="words"></div>
+        <div class="progress-bar">
+          <div class="bar"></div>
+        </div>
+        <div class="timeline">
+          <div><span class="counter">4</span>s remain</div>
+          <div>play-count <span class="play-count"></span></div>
+          <div class="score">
+            <span class="your-score">0</span>/<span class="total-score"
+              >20</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
